@@ -208,6 +208,11 @@ footer{background:#080808;color:#8B887E;font-size:.8rem;padding:36px 0;text-alig
   .lm{flex-basis:280px}
 }
 @media (prefers-reduced-motion:reduce){.rv{transition:none;opacity:1;transform:none}.btn,.cardw,.cardc,.incard,.lm{transition:none}}
+
+/* ═══ CANONICAL HEADER CTA — 最高优先级,终结 padding 覆盖问题 ═══ */
+nav.menu a.nav-cta{background:#DCBF84!important;color:#0B0B0B!important;font-family:var(--display);font-weight:700;font-size:.88rem;padding:13px 32px!important;border-radius:999px;white-space:nowrap;line-height:1;text-decoration:none}
+nav.menu a.nav-cta:hover{background:#F3F3F3!important;color:#0B0B0B!important}
+nav.menu a.nav-cta::after{display:none!important}
 </style>
 </head>
 <body>
